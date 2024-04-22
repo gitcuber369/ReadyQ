@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "../components/ui/infinity-card-scroll";
+import { InfiniteMovingCards } from "../ui/infinity-card-scroll";
 
 export function InfiniteMovingCardsDemo() {
   return (

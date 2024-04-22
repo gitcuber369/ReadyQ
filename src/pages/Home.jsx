@@ -2,7 +2,7 @@ import React from 'react';
 import { ContainerScroll } from '../components/ui/Container-scroll-animation';
 import Header from '../components/Header';
 import { BackgroundBeams } from '../components/ui/Background';
-import { InfiniteMovingCardsDemo } from '../components/InfiniteMovingCardsDemo';
+import { InfiniteMovingCardsDemo } from '../components/ui/InfiniteMovingCardsDemo';
 import Footer from '../components/Footer';
 
 
