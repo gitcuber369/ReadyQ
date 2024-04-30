@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import { BackgroundBeams } from '../components/ui/Background';
 import { InfiniteMovingCardsDemo } from '../components/ui/InfiniteMovingCardsDemo';
 import Footer from '../components/Footer';
+import { CardHoverEffect } from '../components/ui/CardHoverEffect';
 
 
 function Home() {
@@ -32,11 +33,16 @@ function Home() {
       <div>
       <InfiniteMovingCardsDemo />
       </div>
+      <div className='pt-[50px]'>
+        <p className='text-center text-white font-semibold text-3xl md:text-2xl'>Our Key</p>
+        <p className='text-center font-bold text-6xl md:text-5xl bg-gradient-to-r from-pink-500 to-[#0e0ebb] bg-clip-text text-transparent'>Features</p>
+      <CardHoverEffect />
+      </div>
       <div className='flex flex-col justify-center p-[100px]'>
 
         <div className='relative mt-[50px] sm:mt-[136px] sm:px-4 lg:mt-[200px]'>
       <div className='flex justify-center items-center bg-gradient-to-b from-pink-500 to-[#0e0ebb] px-1 py-[100px] sm:rounded-2xl lg:px-4'>
-      <div className=''>
+      <div>
         <h2 className='text-center text-[32px] leading-[40px] tracking-[-.02em] text-white sm:text-[40px] sm:leading-[48px]'>
         We're making Interviews
         <br /> 
